@@ -1,0 +1,103 @@
+/* Reset and basics */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f7ff;
+  color: #0f172a;
+  line-height: 1.6;
+}
+img.logo {
+  height: 120px;
+}
+header {
+  background-color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: #4f46e5;
+  font-weight: 600;
+}
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(to right, #4f46e5, #6366f1);
+  color: white;
+}
+.hero .cta-btn {
+  margin-top: 1rem;
+  display: inline-block;
+  background: white;
+  color: #4f46e5;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+.card-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-top: 2rem;
+}
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.04);
+}
+.pricing-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.price-card {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+}
+.price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4f46e5;
+}
+.note {
+  margin-top: 1rem;
+  font-style: italic;
+  font-size: 0.9rem;
+}
+.cta-btn.alt {
+  background: #4f46e5;
+  color: white;
+  margin-left: 1rem;
+}
+.contact .cta-btn {
+  margin: 0.5rem;
+}
+
+footer {
+  padding: 1.5rem;
+  text-align: center;
+  background: #e5e7eb;
+  color: #333;
+}
